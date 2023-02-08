@@ -15,7 +15,9 @@ dotenv.config();
 // middleware function for Json data
 app.use(express.json());
 
-const MONGO_URL = `mongodb://127.0.0.1`; // node.js - 16 +
+// const MONGO_URL = `mongodb://127.0.0.1`; // node.js - 16 +
+const MONGO_URL = "mongodb+srv://sanket:admin123@cluster0.iavuebx.mongodb.net/"; // Atlas link for mongodb
+
 
 //Code for mongo connection
 async function createConnection() {
